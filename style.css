@@ -1,0 +1,79 @@
+* {
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  height: 80vh;
+  background-color: #eee;
+  border-radius: 0.5rem;
+}
+
+.submit {
+  width: 30%;
+  padding: 0.5rem 0;
+}
+
+.click-btn {
+  width: 49%;
+  padding: 0.5rem 0;
+}
+
+.students {
+  width: 70%;
+  font-size: 1rem;
+  background-color: #28a745;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.add {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.add:hover {
+  color: #007bff;
+  background-color: #eee;
+  border: solid #007bff 1px;
+}
+.remove {
+  color: #fff;
+  cursor: pointer;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.remove:hover {
+  color: #dc3545;
+  background-color: #eee;
+  border: solid #dc3545 1px;
+}
+/*  */
